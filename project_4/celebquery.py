@@ -2,8 +2,6 @@ from distutils.util import execute
 import sqlite3
 from tkinter import Y
 
-from colorama import Cursor
-
 #connect or create to a database "i.e student databse= student.db"
 conn = sqlite3.connect("celebrity.db")
 #check that the connection is succesful
